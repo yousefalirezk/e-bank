@@ -1,0 +1,331 @@
+header {
+position: fixed;
+z-index: 9999;
+width: 100%;
+}
+.logo{
+    color:#ffa100 !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar{
+    background-color: #ffffff;
+    border-bottom: 3px solid #ffa720;
+}
+i.fa-solid.fa-bars {
+    color: #ffa720;
+    font-size: 30px;
+}
+header .nav-item a{
+color: #006643 !important;
+font-size: 17px;
+font-weight: 700;
+}
+header .nav-item a:hover{
+    background-color: #ffa720;
+    border-radius: 15px;
+   
+}
+header .navv{
+background-color: white;
+border-radius: 15px;
+
+}
+.services , .Get {
+padding: 40px 0;
+background-color: rgba(128, 128, 128, 0.055);
+}
+.services h2 , .Get h2{
+color: #006643 !important;
+    
+        padding: 50px;
+        font-weight: 700;
+        font-size: 40px;
+}
+
+.services .left h3 {
+    color: #ffa720;
+    font-weight: 500;
+    font-size: 40px;
+}
+.services .left p{
+    color: #006643 !important;
+    padding: 10px 0;
+
+}
+.services .left a{
+   background-color: #006643 !important;
+   color: white;
+    
+}
+.banner{
+        background-image: url(../images/d464b7c7-3c97-460c-a462-f30a500b7fd8.jpg);
+        height: 50vh;
+        background-position: right;
+        background-size: cover;
+    }
+
+
+    .right{
+        margin: 10px 0;
+    }
+
+
+
+
+
+/* about */
+.sky{
+    background-image: url(../images/blue-sky-and-puffy-clouds-facebook-cover.jpg);
+        height: 50vh;
+        background-position: center;
+        background-size: cover; 
+}
+
+.sky h1,.rate h1{
+    position: absolute;
+ font-weight: 900;
+font-size: 50px;
+    display: flex;
+    top: 200px;
+    right: 80vh;
+    color: #ffa720;
+}
+
+/* Exchange Rate */
+
+
+.rate{
+    background-image:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+    
+    url(../images/pexels-nataliya-vaitkevich-6120182.jpg);
+        height: 60vh;
+        background-position: center;
+        background-size: cover; 
+}
+.bg{background-color: #ffeccc;}
+
+
+#ratee{
+    overflow: auto;
+}
+#ratee table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+#ratee table img{
+width: 10%;
+}
+span.currenct {
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#ratee table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+#ratee table td:nth-child(2) {
+    width: 100px;
+    font-size: 18px !important;
+    
+    text-align: center;
+}
+#ratee table td:nth-child(3) {
+    width: 100px;
+    text-align: center;
+}
+
+#ratee table thead  {
+    border-left: none;
+    border-right: none;
+    background-color: #006643;
+    color: white;
+}
+#ratee table thead td  {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+padding: 18px 0;
+}
+
+#ratee table tbody tr td {
+    padding-top: 15px;
+}
+
+
+
+/* e-bank */
+
+
+
+
+.e-bank img{
+    width: 100%;
+    padding-top: 92px ;
+}
+
+/* Customer */
+.Customer h2{
+    color: #006643;
+}
+.Customer hr{
+    width: 20%;
+    background-color: #ffa100;
+height: 5px;}
+
+.Customer .info h3{
+    color: #ffa100;
+font-size: 20px;
+
+}
+.Customer .info i,.accordion i{
+    color: #ffa100;
+
+padding-right: 10px;
+
+}
+button.accordion-button {
+    color: white !important;
+    background-color: #ffa100 !important;
+}
+
+/* form */
+.forms h2 {
+    color: white;
+    background-color: #ffa720;
+    padding: 10px;
+}
+
+.forms .check i{padding:0 3px;
+    font-size: 25px;
+    border-right: 1px solid rgba(128, 128, 128, 0.404);}
+.forms .check {
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    color: rgba(128, 128, 128, 0.341);
+}
+.form label {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.form input{
+    padding: 5px 19px;
+    width: 40%;
+}
+.forms a {
+        margin: 15px 0;
+        background-color: #ffa720;
+        width: fit-content;
+}
+/* contact */
+.contact-img{
+   
+        background-image: url(../images/pexels-chepté-cormani-1416530.jpg);
+        height: 50vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.contact {
+padding: 50px 0;
+}
+.contact h3{
+        font-size: 20px;
+        font-weight: 700;
+}
+.contact select{
+        width: 40%;
+        padding: 5px 0px;
+        border: 1px solid #ffa720;
+        border-radius: 10px;
+}
+.information{
+    padding: 50px 0;
+}
+.information input {
+    width: 90%;
+    margin: 20px 0;
+    padding: 5px 10px;
+    border: 1px solid #ffa720;
+    border-radius: 10px;
+}
+.information textarea {
+    width: 90%;
+    border: 1px solid #ffa720;
+    height: 10vh;
+    border-radius: 10px;
+
+    resize: none;
+}
+.information .send{
+background-color: #ffa100;
+color: white;
+margin: 15px 0;
+}
+    @media (max-width: 447px) {
+
+
+
+
+        .services  .left {
+            padding: 50px 0;
+        }
+        .services .left p {
+          
+            text-align: center !important;
+        }
+        .services h2, .Get h2 {
+          padding: 0;
+        }
+        .banner {
+            background-image: url(../images/d464b7c7-3c97-460c-a462-f30a500b7fd8.jpg);
+            height: 20vh;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+.our{
+    margin: 20px 0;
+}
+
+
+
+.right{
+    margin: 10px 0;
+}
+.sky h1{
+
+    right: 65px;
+}
+#ratee table td:nth-child(1) {
+  
+    font-size: 15px;
+}
+#ratee table td:nth-child(2){
+    font-size: 15px !important;
+}
+span.currenct {
+   
+    font-size: 12px;
+}
+.form input {
+    padding: 5px 19px;
+    width: 100%;
+}
+.id .col-md-6 {
+    padding: 5px 0;
+}
+.contact select{
+    width: 60%;
+    
+}
+    }
